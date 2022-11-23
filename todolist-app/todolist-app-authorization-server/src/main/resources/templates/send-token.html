@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en" xmlns="https://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>Account Verification</title>
+</head>
+<body>
+    <center>
+        <h2>Enter Verification Token to Enable Your Account</h2>
+            <form th:object="${token}" th:action="token_verification" method="POST">
+                <input th:field="*{token}" type="text" placeholder="enter token">
+                <br>
+                <br>
+                <button type="submit">Enter</button>
+            </form>
+    </center>
+</body>
+</html>

@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en" xmlns="https://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>One More Step!</title>
+</head>
+<body>
+    <center>
+        <h1>
+            One more step to register your new account,
+            use this token to enable your account:
+        </h1>
+        <h2 th:text="${token}" type="text"></h2>
+        <br>
+        <a href="/activate">Send Token To Activate Your Account Here!</a>
+    </center>
+</body>
+</html>

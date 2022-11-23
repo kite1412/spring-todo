@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en" xmlns="https://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>My Todolist App</title>
+</head>
+    <body>
+        <center>
+            <h1>
+                Your Today's Todolist
+            </h1>
+            <hr>
+            <br>
+            <form method="POST" th:action="add" th:object="${todo}">
+                <input th:field="*{todo}" type="text" placeholder="add new todo">
+                <button type="submit">Add</button>
+            </form>
+            <br>
+            <table border="2">
+                <thead>
+                    <tr>
+                        <td>Todo</td>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr th:each="todo: ${todolist}">
+                        <td th:text="${todo.todo}"/>
+                    </tr>
+                </tbody>
+            </table>
+        </center>
+    </body>
+</html>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/todolist-app/todolist-app.iml" filepath="$PROJECT_DIR$/todolist-app/todolist-app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/todolist-app/todolist-app-authorization-server/todolist-app-authorization-server.iml" filepath="$PROJECT_DIR$/todolist-app/todolist-app-authorization-server/todolist-app-authorization-server.iml" />
+      <module fileurl="file://$PROJECT_DIR$/todolist-app/todolist-app-client/todolist-app-client.iml" filepath="$PROJECT_DIR$/todolist-app/todolist-app-client/todolist-app-client.iml" />
+      <module fileurl="file://$PROJECT_DIR$/todolist-app/todolist-app-resource-server/todolist-app-resource-server.iml" filepath="$PROJECT_DIR$/todolist-app/todolist-app-resource-server/todolist-app-resource-server.iml" />
+    </modules>
+  </component>
+</project>
